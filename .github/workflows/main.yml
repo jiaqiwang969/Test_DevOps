@@ -77,7 +77,9 @@ jobs:
       - name: Download Dockerfile
         uses: actions/download-artifact@v2
         with:
-          name: ~/Dockerfile
+          name: Dockerfile
+      - name: where is the Dockerfile
+        run: pwd
 
       - name: Login to GHCR
         uses: docker/login-action@v1 
