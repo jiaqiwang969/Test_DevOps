@@ -104,5 +104,5 @@ jobs:
         with:
           push: true
           tags: ${{ steps.docker_meta.outputs.tags }}
-          file: ~/Dockerfile
+          file: /home/runner/work/Test_DevOps/Test_DevOps/Dockerfile
 
